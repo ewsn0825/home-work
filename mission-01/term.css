@@ -1,0 +1,49 @@
+main{
+  padding-left: 20px;
+  padding-top: 5px;
+  border-radius: 5px;
+  margin: 0;
+  width: 280px;
+  height: 270px;
+  background-color: #CCCCCC;
+}
+
+dl{
+  margin-right: 20px;
+}
+dt {
+  color: #296897;
+  font-weight: bold;
+}
+dd{
+  margin-top: 5px;
+  margin-left: 0;
+  
+}
+
+.clear_fix::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.box_model_1 .wiws{
+  margin-right: 81px;
+  float: right;
+}
+
+.box_model_1 .explain{
+  float: right;
+}
+
+.box_model_2 .wiws{
+  float: left;
+}
+
+.box_model_2 .logo{
+  margin-left: 20px;
+ }
+
+.box_model_2 .explain{
+  float: left;
+}
