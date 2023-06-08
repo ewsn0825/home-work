@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>로그인 영역 만들기</title>
+  <link rel="stylesheet" href="login.css" />
+</head>
+
+<body>
+  <div class="container">
+    <h3>로그인</h3>
+    <div class="login_wrap">
+      <form action="/" method="post" class="login_form">
+        <fieldset>
+          <legend>로그인 폼</legend>
+          <div class="login_form_group">
+            <div class="login_box">
+              <label for="id">아이디</label>
+              <input type="text" id="id" name="id" required placeholder="ewsn0825@naver.com" />
+            </div>
+            <div class="login_box">
+              <label for="pwd">비밀번호</label>
+              <input type="password" id="pwd" name="pwd" required placeholder="8자리 이상" minlength="8" />
+            </div>
+            <button type="submit" class="btn">로그인</button>
+          </div>
+        </fieldset>
+      </form>
+      <ul class="for_login_group">
+        <li><a href="/"><span>&gt;</span>회원가입</a></li>
+        <li><a href="/"><span>&gt;</span>아이디 비밀번호 찾기</a></li>
+      </ul>
+    </div>
+  </div>
+</body>
+
+</html>
