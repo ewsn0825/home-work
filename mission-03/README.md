@@ -25,7 +25,7 @@
   </div>
 </body>
 ```
-> 마크업 구조는 전체 영역인 container와 내부에 있는 ul, li, a 태그를 묶어주는 content_box를 만들어 주었습니다.
+> 마크업 구조는 전체 영역인 container와 제목에 해당되는 h 태그, 그리고 내부에 있는 ul, li, a 태그를 묶어주는 content_box를 만들어 주었습니다.
 
 
 <br/><br/>
@@ -96,29 +96,6 @@
 }
 ```
 
-<br/>
-
-### 조건 2. 회원가입, 아이디/비밀번호 찾기 영역은 float을 활용하여 구현
-
-```
-/* 회원가입, 아이디 비밀번호 찾기 영역 */
-
-.for_login_group{
-  list-style-type: none;
-  display: flow-root;
-  font-size: 0.95rem;
-  margin: 0;
-  padding: 5px 10px 10px 10px;
-}
-
-.for_login_group li:first-child{
-  float: left;
-}
-
-.for_login_group li:last-child{
-  float: right;
-}
-```
 
 <br/>
 
