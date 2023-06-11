@@ -1,0 +1,63 @@
+body{
+  padding: 0;
+  margin: 0;
+}
+
+h2{
+  margin: 0.25rem 0 1rem 0;
+}
+
+span{
+  color: #ED552F;
+}
+
+a{
+  text-decoration-line: none;
+  color: black;
+  font-size: 1.3rem;
+}
+
+.container{
+  background-color: #CCCCCC;
+  width: 16.5rem;
+  /* height: 16.5rem; */
+  padding: 1rem;
+  margin: 1.25rem;
+  border-radius: 5px;
+}
+
+.content_wrap li{
+  padding: 0.3125rem;
+}
+
+.content_box{
+  
+  background-color: white;
+  border-radius: 5px;
+  height: 2.5rem;
+  
+  transition: height 500ms;
+
+  /* 넘친 컨텐츠 요소 안보이기 */
+  overflow: hidden;
+
+  cursor: pointer;
+
+}
+
+.content_wrap{
+  margin: 0;
+  list-style-type: none;
+
+  transition: transform 500ms 500ms;
+}
+
+.content_box:hover{
+  height: 13.125rem;
+}
+
+.content_wrap:hover{
+  transform: translateY(10px);
+}
+
+
